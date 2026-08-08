@@ -1,5 +1,6 @@
 {
-  "name": "binom-telegram-postback-vercel",
+  "name": "binom-telegram-bot-vercel",
   "version": "1.0.0",
-  "description": "Serverless-функція: приймає постбеки Binom і пересилає в Telegram (без оренди сервера)"
+  "description": "Serverless-функція: приймає постбеки Binom і пересилає в Telegram (без оренди сервера)",
+  "type": "module"
 }
