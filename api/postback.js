@@ -21,6 +21,7 @@ export default async function handler(req, res) {
             cap_current = '-',
             cap_limit = '-',
             cap_expire = '-',
+            status = '-',
         } = req.query;
 
         // Ці два значення ми заховаємо в "Environment Variables" на Vercel
@@ -47,6 +48,7 @@ export default async function handler(req, res) {
             `ID ${offer}\n` +
             `GEO: ${geo} ${geoToFlag(geo)}\n` +
             `Revenue: $${revenue}\n` +
+            `Status: ${status}\n` +
             `🔗 Sub ID 1: ${sub1}\n` +
             `🔗 Sub ID 2: ${sub2}\n` +
             `🔗 Sub ID: ${sub3}\n` +
